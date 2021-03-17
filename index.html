@@ -1,20 +1,28 @@
 <html> 
   <head> 
-    <div>
-    <iframe src="scurve.html"
-    sandbox="allow-same-origin allow-scripts"
-    width="100%"
-    height="500"
-    scrolling="no"
-    seamless="seamless"
-    frameborder="0"></div>
-    <div><iframe src="antiviral_scurve.html"
-    sandbox="allow-same-origin allow-scripts"
-    width="100%"
-    height="500"
-    scrolling="no"
-    seamless="seamless"
-    frameborder="0">
-    </iframe></div>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  </head>
+    <div id="g1">
+      <iframe src="scurve.html"
+      sandbox="allow-same-origin allow-scripts"
+      width="70%"
+      height="50%"
+      scrolling="no"
+      seamless="seamless"
+      frameborder="0"
+      id="solar">
+      </iframe>
+    </div>
+    <div id="g2">
+      <iframe src="antiviral_scurve.html"
+      sandbox="allow-same-origin allow-scripts"
+      width="70%"
+      height="50%"
+      scrolling="no"
+      seamless="seamless"
+      frameborder="0"
+      id="antiviral">
+      </iframe>
+    </div>
   </body> 
 </html>
