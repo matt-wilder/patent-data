@@ -4,4 +4,4 @@ Mar 10 2020: This is the respository for Matt Wilder's postdoctoral research on 
 
 <b>\*\*\*supplement under construction\*\*\*</b> 
 
-I am in the process of building and uploading files to the online supplement for _Can we afford to be more like Scandinavians?_ Please check back soon for updates. Report broken links to matt@mattwilder.net.  
+I am in the process of building and uploading files to the online supplement for _Can we afford to be more like Scandinavians?_ Please check back soon for updates. Report broken links to matt@mattwilder.net  
