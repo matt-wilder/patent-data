@@ -27,8 +27,13 @@ data = filter(data, patent != "5693762" & patent != "5585089" & patent != "65732
 
 
 # remove US cases if desired
-#data = filter(data, assignee_country != "US")
-#data = filter(data, inventor_country != "US")
+# data = filter(data, assignee_country != "US")
+# data = filter(data, inventor_country != "US")
+
+
+
+# to easily test for bi-gram and tri-gram radicality (instead of total radicality) if desired
+# data$total_radicality  <- data$b_radicality + data$t_radicality
 
 
 
@@ -66,7 +71,7 @@ data %>% dplyr::count(assignee_country)
 quantile(data$total_radicality, c(.25, .50, .75, .90, .95, .99)) 
 
 
-data$FSRADICALITY <- calibrate(data$u_radicality, type = "fuzzy", 
+data$FSRADICALITY <- calibrate(data$total_radicality, type = "fuzzy", 
                                thresholds = "e=  0, c= 145.0, i= 6057.8", ecdf = TRUE)
 
 
