@@ -5,8 +5,4 @@ Mar 10 2021: This is the respository for Matt Wilder's postdoctoral research on 
 Supplementary tables and figures for _Can we afford to be more like Scandinavians?_ can be found in the .PDF file above.
 Replication code can be found in the .R files. Data tables can be found in the .csv files. 
 
-<b> ** Important update ** </b></n>
-
-Sept 21 2021: I have detected some misattributed patents in the cited_patents_network_data.csv file and am working to rectify them. Please get in touch if you would like to use this dataset, as estimates will be affected by these data errors. 
-
 Check back for updates. Report broken links to matt@mattwilder.net  
